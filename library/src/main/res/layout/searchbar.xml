@@ -6,7 +6,7 @@
     <android.support.v7.widget.CardView
         android:id="@+id/mt_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_centerHorizontal="true"
         app:cardBackgroundColor="@color/searchBarPrimaryColor"
         app:cardCornerRadius="4dp"
@@ -18,7 +18,8 @@
             android:id="@+id/root"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
 
             <ImageView
                 android:id="@+id/mt_menu"
